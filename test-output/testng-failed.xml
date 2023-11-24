@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.tests.LoginData">
+      <class name="api.tests.InvalidData">
         <methods>
-          <include name="logoutDataTC"/>
-          <include name="setURI"/>
-          <include name="setUp"/>
+          <include name="wrongJson"/>
         </methods>
-      </class> <!-- api.tests.LoginData -->
+      </class> <!-- api.tests.InvalidData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
